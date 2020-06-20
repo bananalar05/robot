@@ -1,0 +1,120 @@
+body{
+    background-image: url(https://www.lavanguardia.com/r/GODO/LV/p0/WebSite/2017/04/25/Recortada/featuredImage-13505-la-teoria-que-compara-al-entranable-robot-wall-e-con-satan-da-puro-miedo-992x558@LaVanguardia-Web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.wrap{
+
+    margin: 30px auto;
+}
+
+.head{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    background-color: white;
+    border-top-left-radius: 920px;
+    border-top-right-radius: 920px;
+    border-bottom-left-radius: 420px;
+    border-bottom-right-radius: 420px;
+    margin-bottom: 10px;
+}
+
+.body{
+    width: 190px;
+    height: 320px;
+    margin: auto;
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 920px;
+    border-bottom-right-radius: 920px;
+}
+
+.face{
+    background-color: black;
+    width: 180px;
+    height: 120px;
+    margin: auto;
+    position: relative;
+    top:15px;
+
+    border-top-left-radius: 920px;
+    border-top-right-radius: 920px;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+}
+.right-eye{
+    width: 45px;
+    height: 35px;
+    position: relative;
+    left: 35px;
+    top: -70px;
+    
+    background-color: #0000ff9f;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+
+    animation-name: eyes;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.left-eye{
+    width: 45px;
+    height: 35px;
+    position: relative;
+    left: 115px;
+    top: -105px;
+    
+    background-color: #0000ff9f;
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+
+    animation-name: eyes;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.right-hand{
+    width: 25px;
+    height: 225px;
+    position: relative;
+    left: -35px;
+    top: 20px;
+    
+    background-color:white;
+    border-top-left-radius: 400px;
+    border-bottom-left-radius: 400px;
+}
+
+.left-hand{
+    width: 25px;
+    height: 225px;
+    position: relative;
+    left: 200px;
+    top: -205px;
+    
+    background-color:white;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.left-eye:hover{
+    background-color: whitesmoke;
+}
+
+@keyframes eyes {
+    from{
+        background-color:whitesmoke;
+    }
+    to{
+        background-color: red ;
+    }
+}
+
+.right-eye:hover {
+    background-color: whitesmoke;
+}
+
